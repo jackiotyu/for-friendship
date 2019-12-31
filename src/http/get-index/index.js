@@ -10,7 +10,7 @@ exports.handler = async function Index() {
     // location: 'West Glacier, MT',
     fullname: "荣耀战魂小站", // ←  Start by adding your name!
     title: "荣耀战魂小站",
-    occupation: "Artist & Photographer",
+    occupation: "非官方站点",
     bio: "敬请期待",
 
     /**
