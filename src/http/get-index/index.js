@@ -24,10 +24,10 @@ exports.handler = async function Index () {
      */
     photographer: '育碧成都',
     service: 'Ubisoft',
-    credit: 'https://cdn.jsdelivr.net/gh/jackiotyu/ImgCloud/blob/master/wulin/Zhanhu/armor/common%20s12/Xiaowei.jpg',
-    image: staticAssetsHelper('background.jpg')
+    credit: 'https://bird-fnd-staging.begin.app/',
+    //image: staticAssetsHelper('background.jpg')
     // or link to an external image URL such as ↓
-    //,image: 'https://cdn.jsdelivr.net/gh/jackiotyu/ImgCloud/blob/master/wulin/Zhanhu/armor/common%20s12/Xiaowei.jpg'
+    image: 'https://cdn.jsdelivr.net/gh/jackiotyu/ImgCloud/blob/master/wulin/Zhanhu/armor/common%20s12/Xiaowei.jpg'
   })
 
   return {
