@@ -1,2 +1,0 @@
-# for-friendship
-Begin app
