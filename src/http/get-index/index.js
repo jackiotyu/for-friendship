@@ -28,7 +28,7 @@ exports.handler = async function Index() {
     //image: staticAssetsHelper('background.jpg')
     // or link to an external image URL such as ↓
     image:
-      "https://cdn.jsdelivr.net/gh/jackiotyu/ImgCloud/blob/master/wulin/Zhanhu/armor/common%20s12/Xiaowei.jpg"
+      "https://cdn.jsdelivr.net/gh/jackiotyu/ImgCloud/master/wulin/Zhanhu/armor/common%20s12/Xiaowei.jpg"
   });
 
   return {
