@@ -7,31 +7,27 @@ exports.handler = async function Index () {
     /**
      * Basic bio
      */
-    fullname: 'Your Name', // ←  Start by adding your name!
-    title: 'My personal site!',
+     // location: 'West Glacier, MT',
+    fullname: '荣耀战魂小站', // ←  Start by adding your name!
+    title: '荣耀战魂小站',
     occupation: 'Artist & Photographer',
-    location: 'West Glacier, MT',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
+    bio: '敬请期待',
 
     /**
      * Contact / social
      * - Comment out any item below to remove it from your page
      */
-    email: 'your@email.com',
-    twitter: 'yourTwitter',
-    linkedin: 'your-linkedin-name',
-    instagram: 'yourInsta',
-    facebook: 'your-facebook-name',
+    email: '2504448153@email.com',
 
     /**
      * Layout
      */
-    photographer: 'Ivana Cajina',
-    service: 'Unsplash',
-    credit: 'https://unsplash.com/@von_co',
+    photographer: '育碧成都',
+    service: 'Ubisoft',
+    credit: 'https://cdn.jsdelivr.net/gh/jackiotyu/ImgCloud/blob/master/wulin/Zhanhu/armor/common%20s12/Xiaowei.jpg',
     image: staticAssetsHelper('background.jpg')
     // or link to an external image URL such as ↓
-    // image: 'https://images.unsplash.com/photo-1506535772317-9fdb71c959c6'
+    //,image: 'https://cdn.jsdelivr.net/gh/jackiotyu/ImgCloud/blob/master/wulin/Zhanhu/armor/common%20s12/Xiaowei.jpg'
   })
 
   return {
