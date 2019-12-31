@@ -30,7 +30,7 @@ module.exports = function MailLink (props) {
     style: 'width:1.125rem;height:1rem;',
     href: 'chat-bubble'
   })}
-  Drop me an email!
+  联系我吧！
 </a>
   `
   : ''
