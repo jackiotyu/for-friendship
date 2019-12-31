@@ -27,8 +27,7 @@ exports.handler = async function Index() {
     credit: "https://bird-fnd-staging.begin.app/",
     //image: staticAssetsHelper('background.jpg')
     // or link to an external image URL such as ↓
-    image:
-      "https://cdn.jsdelivr.net/gh/jackiotyu/ImgCloud/master/wulin/Zhanhu/armor/common%20s12/Xiaowei.jpg"
+    image:"https://cdn.jsdelivr.net/gh/jackiotyu/ImgCloud/wulin/Zhanhu/armor/common%20s12/Xiaowei.jpg"
   });
 
   return {
