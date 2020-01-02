@@ -1,12 +1,12 @@
-# Warning: do not edit
-# --------------------
-# This is a generated file and will be overwritten
-
 @app
-begin-app
+bird-fnd
+
+@static
 
 @http
 get /
+get /imgcloud
+get /imgcloud
 
 @tables
 data
