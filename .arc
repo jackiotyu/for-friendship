@@ -5,6 +5,7 @@ bird-fnd
 
 @http
 get /
+get /data
 
 @tables
 data
