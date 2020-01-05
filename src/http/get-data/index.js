@@ -29,7 +29,7 @@ exports.handler = async (event, context) => {
     var con = await conn(url);
     var db = con.db("ForHonorData");
     var col = db.collection("HeroData");
-    var res = await toArray(col.find({}));
+    var res = await toArray(col.find({"camp":"wulin"}));
     return {
       statusCode: 200,
       body: JSON.stringify(res)
@@ -51,7 +51,7 @@ exports.handler = async function http(req) {
     var con = await conn(url);
     var db = con.db("ForHonorData");
     var col = db.collection("HeroData");
-    var res = await toArray(col.find({}));
+    var res = await toArray(col.find({"camp":"wulin"}));
     return {
       statusCode: 200,
       body: JSON.stringify(res)
