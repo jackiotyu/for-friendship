@@ -5,7 +5,6 @@ bird-fnd
 
 @http
 get /
-get /imgcloud
 
 @tables
 data

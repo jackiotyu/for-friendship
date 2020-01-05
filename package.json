@@ -1,6 +1,6 @@
 {
   "name": "For Friendship",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "荣耀战魂英雄装备展示",
   "scripts": {
     "start": "cross-env NODE_ENV=testing npx sandbox"
