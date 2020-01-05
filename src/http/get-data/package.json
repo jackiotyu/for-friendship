@@ -3,6 +3,6 @@
   "dependencies": {
     "@architect/functions": "latest",
     "@begin/data": "latest",
-    "mongodb": "^4.0.13"
+    "mongodb": "^3.3.3"
   }
 }
