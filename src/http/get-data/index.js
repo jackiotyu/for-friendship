@@ -27,7 +27,7 @@ var toArray = function(data) {
 exports.handler = async (event, context) => {
   try {
     var con = await conn(url);
-    var db = con.db("ForHonorData");
+    var db = con.db("ForHonorHero");
     var col = db.collection("HeroData");
     var res = await toArray(col.find({"camp":"wulin"}));
     return {
@@ -49,7 +49,7 @@ exports.handler = async function http(req) {
 
   try {
     var con = await conn(url);
-    var db = con.db("ForHonorData");
+    var db = con.db("ForHonorHero");
     var col = db.collection("HeroData");
     var res = await toArray(col.find({"camp":"wulin"}));
     return {
